@@ -96,6 +96,15 @@ $ sudo touch /etc/openvpn/up.sh
 $ sudo touch /etc/openvpn/down.sh
 ```
 
+and we make sure that the scripts are called, by adding the following lines at the very bottom of `/etc/openvpn/purevpn.conf`:
+
+```
+script-security 2
+up /etc/openvpn/up.sh
+down /etc/openvpn/down.sh
+```
+
+
 #### Update DNS settings
 
 OpenVPN provides a script to update settings in `/etc/resolv.conf` when the VPN is established. The script is `/etc/openvpn/update-resolv-conf` and we have to run it first thing when the connection is established, and the last, when the connection is closed.

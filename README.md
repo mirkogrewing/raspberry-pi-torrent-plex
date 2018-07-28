@@ -77,7 +77,7 @@ Look for `rpc-whitelist` and `rpc-whitelist-enabled` and make sure they look lik
 
 Please note that this is assuming that your internal network works on 192.16.0.1/24. If otherwise please change the value accordingly.
 
-Also, youcan modify `download-dir` and `incomplete-dir` to point at the external USB drive, for example:
+Also, you can modify `download-dir` and `incomplete-dir` to point at the external USB drive, for example:
 
 ```
 "download-dir": "/media/storage/downloads",
