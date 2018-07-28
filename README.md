@@ -2,6 +2,14 @@
 
 This project is a collection of guidelines and tutorials explaining how to create a fully autonomous torrent machine and Plex Media Server out of a Raspberry Pi.
 
+## General Notes
+
+I execute the following commands on a new installation of Raspbian 9. As an editor I use vim, that I installed after the first boot with:
+
+```
+$ sudo apt-get install vim-nox
+```
+
 ## Requirements
 
 1. A Raspberry Pi with [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), connected to the internet, whose intranet IP is known - the installation of Raspbian is out of scope.
@@ -10,7 +18,8 @@ This project is a collection of guidelines and tutorials explaining how to creat
 
 For this tutorial I used:
 
-1. 1 Raspberry Pi 3 - Model B (assuming IP address: 192.168.0.10)
+1. 1 Raspberry Pi 3 - Model B (Linux raspberrypi 4.14.52-v7+ & Raspbian 9)
+1. Static IP address for the Raspberry Pi (192.168.0.10)
 1. 1 Trascend StoreJet 25M3 (2 TB) formatted with ExFAT
 1. 1 [PureVPN](https://www.purevpn.com) premium account
 
@@ -40,7 +49,7 @@ EXT 2, 3, 4|No|Yes (with third-party software)|No|No|Yes|No|Yes
 
 I decided to use ExFAT since I only work with Mac OS and Linux.
 
-1. Connect an ExFAT USB Drive
+1. [Connect an ExFAT USB Drive](extra/external-drives/ExFAT.md)
 
 ## Transmission BitTorrent
 
