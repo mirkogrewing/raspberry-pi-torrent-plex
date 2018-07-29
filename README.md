@@ -4,11 +4,21 @@ This project is a collection of guidelines and tutorials explaining how to creat
 
 ## General Notes
 
+### Operative System
+
 I execute the following commands on a new installation of Raspbian 9. As an editor I use vim, that I installed after the first boot with:
 
 ```
 $ sudo apt-get install vim-nox
 ```
+
+### Hardware
+
+I used for this tutorial a Raspberry Pi 3B. Using a fresh Raspbian install and default settings I could not get the device to work for more than 20 minutes consecutively without freezing.
+
+The Raspberry Pi 3 suffers apparently from problems due to voltage and heating. Therefore I tweaked settings and it stopped hanging.
+
+1. [Settings for Raspberry Pi 3 - Model B](settings/raspbi-3b.md)
 
 ## Requirements
 
