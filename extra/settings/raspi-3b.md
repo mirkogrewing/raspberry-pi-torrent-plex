@@ -58,9 +58,9 @@ to see the output updated every 2 seconds.
 You can go further and overclock the CPU of your Raspberry Pi.
 
 :exclamation: WARNING :exclamation:
-Overclocking your CPU can result in serious damages to your the same and might void the warranty. Please do it at your own risk. In my case, even without overclock, the Raspberry was constantly working on a temperature around 70˚C, reaching occasionally 81-82˚C. Ofter installing a copper heatsink for the RAM and a heatsink with fans for the board, the temperature never went above 44˚C - even after overclocking.
+Overclocking your CPU can result in serious damages to your the same and might void the warranty. Please do it at your own risk. In my case, even without overclock, the Raspberry was constantly working on a temperature around 70˚C, reaching occasionally 81-82˚C. Ofter installing a copper heatsink for the RAM and a heatsink with fans for the board, the temperature - when idle - never went above 44˚C - ~~even after overclocking~~ while it stayed between 58 and 62˚C while streaming a movie.
 
-In my case (Raspberry Pi 3b) I could overclock from 1.2 to 1.35 GHz by adding the following to `/boot/config.txt`
+In my case (Raspberry Pi 3b) I ~~could~~ tried to overclock from 1.2 to 1.35 GHz by adding the following to `/boot/config.txt`
 
 ```
 arm_freq=1350
@@ -68,4 +68,7 @@ core_freq=500
 disable_splash=1
 ```
 
-and rebooting.
+~~and rebooting~~, but after reboot I noticed that every video I was playing was crashing with the following error:
+> The transcoder process crashed
+
+Reverting to the normal settings solved the problem.
