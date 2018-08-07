@@ -7,8 +7,6 @@ After a little bit of testing I was satisfied with the following settings in `/b
 ```
 gpu_mem=320
 
-force_turbo=1
-boot_delay=1
 over_voltage=6
 ```
 

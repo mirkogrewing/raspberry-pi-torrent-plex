@@ -220,7 +220,7 @@ To have the service launched at boot:
 $ sudo systemctl enable transmission-rss
 ```
 
-### Check
+### Optional: Sanity Check
 
 If you reboot now, you should have:
 
@@ -287,3 +287,7 @@ http://192.168.0.10:32400/web/
 Don't forget to replace the IP with the one that your Raspberry Pi is using in your network.
 
 When you are requested to add libraries, you should add the download folder of Transmission, in our example `/media/storage/downloads`.
+
+### Optional: Convert Videos to Avoid Transcoding
+
+Check [this page](extra/encoding/handbrake.md).
