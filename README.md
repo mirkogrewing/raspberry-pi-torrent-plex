@@ -18,7 +18,7 @@ I used for this tutorial a Raspberry Pi 3B. Using a fresh Raspbian install and d
 
 The Raspberry Pi 3 suffers apparently from problems due to voltage and heating. Therefore I tweaked settings and it stopped hanging.
 
-1. [Settings for Raspberry Pi 3 - Model B](settings/raspi-3b.md)
+1. [Settings for Raspberry Pi 3 - Model B](extra/settings/raspi-3b.md)
 
 ## Requirements
 
