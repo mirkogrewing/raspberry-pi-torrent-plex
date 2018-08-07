@@ -290,4 +290,4 @@ When you are requested to add libraries, you should add the download folder of T
 
 ### Optional: Convert Videos to Avoid Transcoding
 
-Check [this page](extra/encoding/handbrake.md).
+Check [this page](extra/encoding/HandBrake.md).
